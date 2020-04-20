@@ -30,7 +30,7 @@ declare module 'Phaser' {
 ### Release version:
 > npm run release
 
-### Note. See comments in `index.html` to switch between `Debug` and `Release` versions. For example, if you want to switch to `Release` version you just need to comment `Debug version` and uncomment `Release version` and recompile the project: `npm run release`
+Note. See comments in `index.html` to switch between `Debug` and `Release` versions. For example, if you want to switch to `Release` version you just need to comment `Debug version` and uncomment `Release version` and recompile the project: `npm run release`
 
 ```js
     <!-- Debug version -->
