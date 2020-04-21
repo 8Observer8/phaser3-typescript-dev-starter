@@ -24,11 +24,28 @@ declare module 'Phaser' {
 }
 ```
 
-### Debug version:
+Install TypeScript globally:
+> npm i -g typescript
+
+## Build debug version:
 > npm run debug
 
-### Release version:
+Install `http-server` globally:
+> npm i -g http-server
+
+Run `http-server`:
+> http-server
+
+Type in your browser:
+> localhost:8080
+
+## Build release version:
 > npm run release
+
+Install `browserify` and `uglify-js` globally:
+> npm i -g browserify
+
+> npm i -g uglify-js
 
 Note. See comments in `index.html` to switch between `Debug` and `Release` versions. For example, if you want to switch to `Release` version you just need to comment `Debug version` and uncomment `Release version` and recompile the project: `npm run release`
 
